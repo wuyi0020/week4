@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <router-link class="navbar-brand" to="/">Home</router-link>
             <router-link class="btn btn-outline-light me-2" to="/buycoin">購買硬幣</router-link>
-            <router-link v-if="!LoginState" class="btn btn-outline-light me-2" v-slot="{route}" to="/login">{{route}}</router-link>
+            <router-link v-if="!LoginState" class="btn btn-outline-light me-2" to="/login">登入</router-link>
             <div v-else class="btn btn-outline-light me-2" @click="logOut()" to="/login">登出</div>
         </div>
     </nav>
