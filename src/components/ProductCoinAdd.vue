@@ -26,13 +26,13 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text" :id="`add_origin_price`">原價</span>
                     </div>
-                    <input type="number" class="form-control" aria-label="原價" :aria-describedby="`add_origin_price`" v-model="addItem.origin_price" />
+                    <input type="number" class="form-control" aria-label="原價" :aria-describedby="`add_origin_price`" v-model.number="addItem.origin_price" />
                 </div>
                 <div class="input-group mb-3 col">
                     <div class="input-group-prepend">
                         <span class="input-group-text" :id="`add_price`">現價</span>
                     </div>
-                    <input type="number" class="form-control" aria-label="現價" :aria-describedby="`add_price`" v-model="addItem.price" />
+                    <input type="number" class="form-control" aria-label="現價" :aria-describedby="`add_price`" v-model.number="addItem.price" />
                 </div>
             </div>
             <div>
