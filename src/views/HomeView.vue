@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-3 p-2 ">
                 <div class="card">
-                    委託牆
+                    創作者牆
                 </div>
             </div>
             <div class="col-9 p-2 ">
